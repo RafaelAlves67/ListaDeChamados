@@ -1,0 +1,108 @@
+.table {
+    /* width: 900px; */ /* Remova a largura fixa da tabela */
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse; /* Adicione para melhorar a aparência das bordas */
+    table-layout: fixed; /* Adicione para definir o layout da tabela */
+    width: 80%; /* Adicione para garantir que a tabela ocupe a largura total do contêiner pai */
+}
+
+
+.container > h1{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.div_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.thead > th,
+.tbody > td {
+    width: 20%; /* Defina a largura dos elementos <th> e <td> conforme necessário */
+    padding: 10px;
+}
+
+.thead {
+    border-bottom: 2px solid black;
+}
+
+.tbody > tr {
+    border-bottom: 1px solid rgb(78, 75, 75);
+}
+
+.descChamado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 300px;
+    width: 300px;
+    z-index: 1;
+    background-color: #ccc;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.descChamado > h4 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.campoDesc > p {
+    background-color: white;
+    height: 100px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.divButton{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.buttons > button{
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.div_pesquisa{
+    display: flex;
+    justify-content: end;
+    margin-top: 50px;
+    margin-right: 189px;
+    margin-bottom: 20px;
+}
+
+.div_pesquisa > button{
+    padding: 5px;
+    background-color: #ccc;
+}
+
+.div_pesquisa > button:hover{
+    background-color: #e7e1e1;
+    border: 1px solid #ccc;
+}
+
+
+    
+
+

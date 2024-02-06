@@ -1,0 +1,8 @@
+.div_about{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 200px auto;
+    justify-content: center;
+    text-align: center;
+}
